@@ -1,0 +1,15 @@
+[
+  {
+    "DownstreamPathTemplate": "/api/cart/{everything}",
+    "DownstreamScheme": "http",
+    "DownstreamHostAndPorts": [
+      {
+        "Host": "localhost",
+        "Port": 5198
+      }
+    ],
+    "UpstreamPathTemplate": "/cart/{everything}",
+    "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+  }
+]
+

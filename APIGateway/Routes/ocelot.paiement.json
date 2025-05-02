@@ -1,0 +1,16 @@
+﻿{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/paiement/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5189
+        } 
+      ],
+      "UpstreamPathTemplate": "/paiement/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    }
+  ]
+}
